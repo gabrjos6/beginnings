@@ -1,5 +1,17 @@
 <head> 
 <title> Test </title>
+  /*Hai. I figured it out. It was through email. *facepalm*
+  *So now I have push access to this repo (repository) and I can make commits.
+  *First I thought I'd show you how to link your Javascript files to the html document. As you found out, the prompt() was not working, because it was not associated with the test.html file.
+  *To link it, you need the script tag with the src attribute. It looks like this: */
+  <script src="./FILENAME.js"></script>
+  // Alternatively, you can simply pop your javascript lines into the script tag itself, like this:
+  <script>
+    function alertUser() {
+      alert("The user has been alerted");
+      setTimeout(function() {alert("setTimeout was used");}, 5000); //Alerts user "setTimeout was used" after 5 seconds (5000 milliseconds)
+      window.location.reload();
+    }
 </head>
 <body>
 <p> hi </p> 
