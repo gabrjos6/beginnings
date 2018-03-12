@@ -3,6 +3,10 @@ function hackPentagon(name, reason) {
   alert('Their reasoning was ' + reason + '.');
 }
 
-
-
-prompt("Hi");
+function grapefruit(name, favFruit) {
+  if(favFruit != "grapefruit" || favFruit != "Grapefruit") {
+    alert(name + " does not like grapefruit.");
+  } else {
+    alert(name + " likes " + favFruit + " instead.");
+  }
+}
