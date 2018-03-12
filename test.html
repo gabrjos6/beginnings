@@ -16,7 +16,7 @@
     }
   </script>
 <body>
-<p> hi </p> 
+<h1> hi </h1> 
   <!--
 Here's a lesson on the basic structure of an HTML element:
 
@@ -35,9 +35,19 @@ The <p> element above is a normal paragraph element. But to customize it more, y
     Styling with CSS is not hard; you can select by element, class, or id. Selecting by element simply requires typing the element name, for instance, if I wanted to style all of the <p> elements with the text color red, I'd do this:
     */
     
-    p {
-      color:red; /* CSS supports a few color names, but not super-complex names like 'purple' or like colors. Try a color, and if it doesn't work, visit www.htmlcolorcodes.com and select HEX, which is like RGB, but a lot more complex.*/
+    @font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anton Regular'), local('Anton-Regular'), url(https://fonts.gstatic.com/s/anton/v9/1Ptgg87LROyAm3Kz-C8CSKlv.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+    
+    h1 {
+      font-family:"Anton";
+     color:purple; /* CSS supports a few color names, but not super-complex names like 'purple' or like colors. Try a color, and if it doesn't work, visit www.htmlcolorcodes.com and select HEX, which is like RGB, but a lot more complex.*/
     }
+    
     
     /* Selecting by class or id is not hard either, but you must assign an id/class to the desired element(s). Classes can be assigned to multiple, but IDs are unique.
     To select by ID, you place a #hashtag in front of the ID. If an ID of an element was 'github', you would do the following: */
