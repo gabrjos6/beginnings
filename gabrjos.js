@@ -1,43 +1,43 @@
 var t = prompt("What precentage did you get (only list number (ie 100)"); 
-if(t === "100") {
+if(t > 100 && t < 201) {
   alert("You got an A+!");
 }
-if(t > "92" && t < "100") {
+if(t > 92 && t < 100) {
   alert("your grade is an A");
 }
-if(t === "92" || t < "92" && t > "89") {
+if(t === 92 || t < 92 && t > 89) {
   alert("You got an A-");
 }
-if(t > "88" && t < "90") {
+if(t > 88 && t < 90) {
   alert("You got a B+");
 }
-if(t > "82" && t < "87") {
+if(t > 82 && t < 87) {
   alert("You got a B");
 }
-if(t > "79" && t < "83") {
+if(t > 79 && t < 83) {
   alert("You got a B-");
 }
-if(t > "76" && t < "80") {
+if(t > 76 && t < 80) {
   alert("You got a C+");
 }
-if(t > "72" && t < "77") {
+if(t > 72 && t < 77) {
   alert("You got a C");
 }
-if(t > "69" && t < "73") {
+if(t > 69 && t < 73) {
   alert("You got a C-");
 }
-if(t > "66" && t < "70") {
+if(t > 66 && t < 70) {
   alert("You got a D+");
 }
-if(t > "62" && t < "67") {
+if(t > 62 && t < 67) {
   alert("You got a D");
 }
-if(t > "59" && t < "63") { 
+if(t > 59 && t < 63) { 
   alert("You got a D-"); 
 }
-if(t > "0" && t <"60") {
+if(t > 0 && t <60) {
   alert("You got an F");
 }
 else {
-  alert("Sorry, your input did not match a number 1-100. Try checking to make sure it is in numerical form, no precentage sign");
+  alert("Sorry, your input did not match a number 1-200. Try checking to make sure it is in numerical form, no precentage sign");
 }
