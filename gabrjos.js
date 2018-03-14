@@ -32,3 +32,12 @@ if(t > "66" && t < "70") {
 if(t > "62" && t < "67") {
   alert("You got a D");
 }
+if(t > "59" && t < "63") { 
+  alert("You got a D-"); 
+}
+if(t > "0" && t <"60") {
+  alert("You got an F");
+}
+else {
+  alert("Sorry, your input did not match a number 1-100. Try checking to make sure it is in numerical form, no precentage sign");
+}
