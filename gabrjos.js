@@ -40,4 +40,5 @@ if(t > 0 && t <60) {
 }
 else {
   alert("Sorry, your input did not match a number 1-200. Try checking to make sure it is in numerical form, no precentage sign");
+  return false;
 }
