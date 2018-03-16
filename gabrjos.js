@@ -1,4 +1,4 @@
-var t = prompt("What precentage did you get (only list number (ie 100)"); 
+var t = prompt("What precentage did you get? (only list number, i.e. 100)"); 
 if(t > 100 && t < 201) { //Ya screwed up here. There is no specification for what happens when the input IS ACTUALLY 100. Change the parameters to t > 99, so it INCLUDES 100.
   alert("You got an A+!");
 }
