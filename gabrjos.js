@@ -1,3 +1,4 @@
+function doGrades() {
 var t = prompt("What precentage did you get? (only list number, i.e. 100)"); 
 if(t > 99 && t < 201) { //Ya screwed up here. There is no specification for what happens when the input IS ACTUALLY 100. Change the parameters to t > 99, so it INCLUDES 100. done.
   alert("You got an A+!");
@@ -41,3 +42,4 @@ if(t > 0 && t <60) {
 if(isNaN(t) == true) { //This says: HAY! IS (t) A NUMBER??? if it is not a number, do this. You can change "==true" to "==false" if you want. BUT THAT MAKES NOO SENSE!
   alert("Sorry, your input did not match a number 1-200. Try checking to make sure it is in numerical form without a precentage sign");
 } // I also changed the wording on line 42.
+}
