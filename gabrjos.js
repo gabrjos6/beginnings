@@ -39,7 +39,10 @@ if(t > 59 && t < 63) {
 if(t > 0 && t <60) {
   alert("You got an F");
 }
-if(isNaN(t) == true) { //This says: HAY! IS (t) A NUMBER??? if it is not a number, do this. You can change "==true" to "==false" if you want. BUT THAT MAKES NOO SENSE!
+if(isNaN(t) == true) { 
   alert("Sorry, your input did not match a number 1-200. Try checking to make sure it is in numerical form without a precentage sign");
 } // I also changed the wording on line 42.
+if(t >201 || t < 0) {
+  alert("That number is too big"); 
+}
 }
