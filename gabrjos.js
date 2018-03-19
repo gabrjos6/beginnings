@@ -1,6 +1,6 @@
 function doGrades() {
 var t = prompt("What precentage did you get? (only list number, i.e. 100)"); 
-if(t > 99 && t < 201) { .
+if(t > 99 && t < 201) {
   alert("You got an A+!");
 }
 if(t > 92 && t < 100) {
