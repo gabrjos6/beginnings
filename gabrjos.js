@@ -45,4 +45,7 @@ if(isNaN(t) == true) {
 if(t >201 || t < 0) {
   alert("That number is too big"); 
 }
+if(t == false) {
+  alert("Y U no like meh?");
+}
 }
