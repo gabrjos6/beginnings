@@ -41,11 +41,9 @@ if(t > 0 && t <60) {
 }
 if(isNaN(t) == true) { 
   alert("Sorry, your input did not match a number 1-200. Try checking to make sure it is in numerical form without a precentage sign");
-  var t = prompt("Reenter your number here ");
 } 
 if(t >201 || t < 0) {
   alert("That number is too big"); 
-  var t = prompt("Reenter your number here ");
 }
 if(t === null) {
   alert("Y U no like meh?");
