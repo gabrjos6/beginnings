@@ -5,13 +5,6 @@ function hackPentagon() {
   alert('Their reasoning was ' + r + '.');
 }
 
-function grapefruit(name, favFruit) {
-  if(favFruit != "grapefruit" || favFruit != "Grapefruit") {
-    alert(name + " does not like grapefruit.");
-  } else {
-    alert(name + " likes " + favFruit + " instead.");
-  }
-}
 function cypher() {
   var a = prompt("a"); 
   if(a === "å" || a === "Å") {
@@ -93,3 +86,4 @@ function cypher() {
     a = "z"
   }
 alert(a);
+}
