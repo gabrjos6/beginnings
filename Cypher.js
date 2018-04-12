@@ -78,6 +78,6 @@ function cypher() {
     }
     if(a === "Ω" || a === "¸") {
     a = "z"
-    alert(a);
+     alert('Their reasoning was ' + a + '.');
     }
 }
