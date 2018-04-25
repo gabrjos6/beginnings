@@ -79,10 +79,10 @@ function cypher() {
     if(a === "Ω" || a === "¸") {
     a = "z"
     }
-  var b = prompt("b");  
-  if(b === "å" || b === "Å") 
+  var b = prompt("b");
+  if(b === "å" || b === "Å") { 
     b = "a" 
-    }
+  }
     if(b === "∫" || b === "ı") { 
     b = "b"
     }
@@ -158,7 +158,8 @@ function cypher() {
     if(b === "Ω" || b === "¸") {
     b = "z"
     } 
-    if(c === "å" || c === "Å") {
+    var c = prompt("c");
+  if(c === "å" || c === "Å") {
     c = "a" 
     }
     if(c === "∫" || c === "ı") {
