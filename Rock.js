@@ -3,7 +3,5 @@ function random() {
   var conf = confirm('setInterval?');
   if(conf == false) {
     alert(x);
-  } else if (conf == true) {
-    setInterval(function() {alert(x)}, 2000);
   }
 }
