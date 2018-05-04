@@ -4,6 +4,6 @@ function random() {
   if(conf == false) {
     alert(x);
   } else if (conf == true) {
-    setInterval(function() {document.getElementsByTagName('h1').innerHTML = x;}, 2000);
+    setInterval(function() {alert(x)}, 5000);
   }
 }
