@@ -4,6 +4,6 @@ function random() {
   if(conf == false) {
     alert(x);
   } else if (conf == true) {
-    setInterval(function() {alert(x)}, 5000);
+    setInterval(function() {alert(x)}, 2000);
   }
 }
