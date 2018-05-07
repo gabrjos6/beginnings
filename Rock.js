@@ -12,9 +12,21 @@ function random() {
   }
   if(x === 10) {
     x = "4"
-  var y = prompt("Rock(1), Paper(2), or sissors(3)")
+  var y = prompt("Rock(1), Paper(2), or scissors(3)")
 if(y === "1" && x === "1") {
   alert("You tied. You both picked rock.");
 }
-    if(y === "" && x === ) {
-       
+    if(y === 2 && x === 2) {
+       alert("You tied. You both picked paper");
+    }
+    if(y === 3 && x === 3) { 
+      alert("You tied. You both picked scissors");
+    }
+    if(x === 4) { 
+      alert("You lost. The computer picked nuclear bomb.")
+    }
+    if(y === 1 && x === 2) {
+      alert("You lost. You picked rock and the computer picked scissors.")
+    }
+    if(y === 1 && x === 3) { 
+      alert("You win
