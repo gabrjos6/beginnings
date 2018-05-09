@@ -1,6 +1,5 @@
 function random() {
   var x = Math.floor(Math.random()*10)
-    alert(x)
   if(x < 3 || x = 3) {
     x = "1"
   }
