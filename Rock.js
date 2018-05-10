@@ -22,7 +22,7 @@ if(y === "1" && x === "1") {
     if(y === "3" && z === "3") { 
       alert("You tied. You both picked scissors");
     }
-    if(x === "4" && z === "4") { 
+    if(z === "4") { 
       alert("You lost. The computer picked nuclear bomb.");
     }
     if(y === "1" && z === "2") {
