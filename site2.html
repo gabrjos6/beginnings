@@ -1,1 +1,58 @@
-
+<head> 
+<title> Rock paper scissors </title>
+  <script src="./Rock.js"></script>
+</head>
+<p align="center">
+  <img src="B3CC0D8D-6DF6-4D8A-86C5-15AD6630B383.gif" width="350" id="tsf" style="display:none;"/>
+  </p>
+  <script>
+    function alertUser() {
+      alert("The user has been alerted");
+      setTimeout(function() {alert("setTimeout was used");}, 5000); //Alerts user "setTimeout was used" after 5 seconds (5000 milliseconds)
+      setTimeout(function() {window.location.reload();}, 5000);
+    }
+    
+    function toggleSa() {
+      var gif = document.getElementById('tsf');
+      if(gif.style.display = 'none') {
+        gif.style.display = 'block';
+      } else {
+        gif.style.display = 'none';
+      }
+    }
+  </script>
+<body>
+   <div align="center">
+<h1> Rock paper scissors </h1>
+     <input type="submit" onclick="random()" value="test">                
+  <style>
+    
+    @font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anton Regular'), local('Anton-Regular'), url(https://fonts.gstatic.com/s/anton/v9/1Ptgg87LROyAm3Kz-C8CSKlv.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+    
+    h1 {
+      font-family:"Anton";
+     color:blue; /* CSS supports a few color names, but not super-complex names like 'purple' or like colors. Try a color, and if it doesn't work, visit www.htmlcolorcodes.com and select HEX, which is like RGB, but a lot more complex.*/
+    }
+    
+ 
+    #github {
+      /* STYLES */
+    }
+    
+    /* Class is identical to ID, but instead of a #hashtag, it's a .period. */
+    
+    .github {
+      /* STYLES */
+    }
+      
+    
+    
+    
+  </style>
+</body> 
