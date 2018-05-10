@@ -43,7 +43,4 @@ if(y === "1" && x === "1") {
   if(y === "3" && z === "2") {
     alert("You win. You picked scissors and the computer picked paper.");
   }
-  else {
-    alert("sorry, we don't understand your input") 
-  }
 }
