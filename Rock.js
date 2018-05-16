@@ -12,8 +12,7 @@ function random() {
   if(x === 10) {
     z = "4"
   }
-  var y = prompt("Rock(1), Paper(2), or scissors(3)")
-if(y === "1" && x === "1") {
+ if(y === "1" && x === "1") {
   alert("You tied. You both picked rock.");
 }
     if(y === "2" && z === "2") {
@@ -44,3 +43,11 @@ if(y === "1" && x === "1") {
     alert("You win. You picked scissors and the computer picked paper.");
   }
 }
+function rock() {
+  y = "1"
+}
+function paper() {
+  y = "2"
+}
+function scissors() {
+  y = "3"
