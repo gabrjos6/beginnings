@@ -51,3 +51,4 @@ function paper() {
 }
 function scissors() {
   y = "3"
+}
