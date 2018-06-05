@@ -1,3 +1,4 @@
-function randomIntFromInterval(min,max){
-    return Math.floor(Math.random()*(max-min+1)+min);
+function Lottery() {
+    var t = faker.random.number(173,000,000);
+prompt("t");
 }
