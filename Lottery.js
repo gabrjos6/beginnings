@@ -6,7 +6,7 @@ function Lottery() {
     if(t < 25924331 || t > 25924331) {
         alert("You lose :( "); 
     var x;
-        x = x + 1;
+        x = x + 2;
     }
 }
 function MONEY() {
