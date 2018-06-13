@@ -4,5 +4,6 @@ function Lottery() {
         alert("YOU WIN!!!!! !!!!! !!!!!"); 
     }
     if(t < 25924331 || t > 25924331) {
-        alert("You lose :( ");
+        alert("You lose :( "); 
+    }
 }
