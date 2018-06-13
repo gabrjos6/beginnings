@@ -8,3 +8,6 @@ function Lottery() {
         alert("You lose :( "); 
     }
 }
+function MONEY() {
+  alert("You have spent $" + x + "on lottery tickets so far");
+}
