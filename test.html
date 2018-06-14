@@ -14,10 +14,6 @@
       alert("The user has been alerted");
       setTimeout(function() {alert("setTimeout was used");}, 5000); //Alerts user "setTimeout was used" after 5 seconds (5000 milliseconds)
       setTimeout(function() {window.location.reload();}, 5000);
-    window.onload = function () {
-    if (localStorage.getItem("hasCodeRunBefore") === null) {
-        var x = 0
-        localStorage.setItem("hasCodeRunBefore", true);
     }
     
    
