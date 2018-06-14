@@ -1,5 +1,5 @@
 function start() {
-  var m = "0";
+  var m = "0"
 }
 function Lottery() {
   var m = m + 2;
