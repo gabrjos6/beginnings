@@ -1,3 +1,6 @@
+function start() {
+  var m = "0";
+}
 function Lottery() {
   var m = m + 2;
     var t = Math.round(Math.random()*120000001) 
