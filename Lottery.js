@@ -1,5 +1,5 @@
 function Lottery() {
-  var m = "0"
+  var m === "0"
     var t = Math.round(Math.random()*120000001) 
     if(t ==="25924331") {
         alert("YOU WIN!!!!! !!!!! !!!!!"); 
