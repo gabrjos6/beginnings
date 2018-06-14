@@ -9,5 +9,5 @@ function Lottery() {
     }
 }
 function MONEY() {
-  alert("You have spent $" + x + "on lottery tickets so far");
+  alert(x");
 }
