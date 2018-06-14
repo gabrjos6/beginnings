@@ -9,5 +9,5 @@ function Lottery() {
     }
 }
 function MONEY() {
-  alert(x);
+  alert( x );
 }
