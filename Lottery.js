@@ -8,11 +8,11 @@ function Lottery() {
     if(t < 25924331 || t > 25924331) {
         alert("You lose :( "); 
     }
-  function MONEY() {
+}
+
+function MONEY() {
     alert(m);
   }
   function start() {
     var m = 0;
   }
-}
-
