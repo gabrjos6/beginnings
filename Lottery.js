@@ -11,7 +11,7 @@ function Lottery() {
 }
 
 function MONEY() {
-    alert(m);
+    alert("You spent $" + m + " on lottery tickets");
   }
   function start() {
     var m = 0;
