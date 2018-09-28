@@ -17,9 +17,9 @@ function MONEY() {
     var m = 0;
   }
 function lottery5() {
-   function Lottery()
-   function Lottery()
-   function Lottery()
-   function Lottery()
-   function Lottery()
+   function Lottery();
+   function Lottery();
+   function Lottery();
+   function Lottery();
+   function Lottery();
 }
