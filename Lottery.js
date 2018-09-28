@@ -16,10 +16,3 @@ function MONEY() {
   function start() {
     var m = 0;
   }
-function lottery5() {
-   function Lottery();
-   function Lottery();
-   function Lottery();
-   function Lottery();
-   function Lottery();
-}
