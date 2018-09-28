@@ -12,7 +12,7 @@ if(t === 92 || t < 92 && t > 89) {
 if(t > 88 && t < 90) {
   alert("You got a B+");
 }
-if(t > 82 && t < 87) {
+if(t > 82 && t < 89) {
   alert("You got a B");
 }
 if(t > 79 && t < 83) {
