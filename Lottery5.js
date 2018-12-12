@@ -1,5 +1,5 @@
 function lottery5() {
-  var t = prompt("Number of tickets")
+  var t = prompt("Number of tickets");
   if t = 1 {
   function Lottery(); 
   }
