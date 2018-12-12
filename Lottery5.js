@@ -18,3 +18,5 @@ function lottery5() {
    if t > 5 {
       function Lottery();
    }
+  
+}
