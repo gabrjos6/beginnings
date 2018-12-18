@@ -1,22 +1,21 @@
 function lottery5() {
-  var t = prompt("Number of tickets");
-  if t = 1 {
+   var i = prompt("i");
+  if i = 1 {
   function Lottery(); 
   }
-   if t > 1 {
+   if i > 1 {
       function Lottery();
    }
-   if t > 2 {
+   if i > 2 {
    function Lottery();
    }
-   if t > 3 {
+   if i > 3 {
    function Lottery();
    }
-   if t > 4 {
+   if i > 4 {
    function Lottery();
 }
-   if t > 5 {
+   if i > 5 {
       function Lottery();
    }
-  
 }
