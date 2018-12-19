@@ -1,5 +1,5 @@
 function lottery5() {
-   var i = prompt("i");
+   var i = prompt("How many tickets do you want? (up to twenty)");
   if(i > 0) {
   Lottery(); 
   }
