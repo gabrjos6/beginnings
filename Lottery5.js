@@ -18,4 +18,6 @@ function lottery5() {
    if(i > 5) {
   Lottery();
    }
+   if(i > 6) {
+   Lottery();
 }
