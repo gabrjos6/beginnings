@@ -13,19 +13,19 @@ function lottery5() {
   Lottery();
    }
    if(i > 4) {
-  Lottery();
+      Lottery();
 }
    if(i > 5) {
-  Lottery();
+      Lottery();
    }
    if(i > 6) {
-   Lottery();
+      Lottery();
    }
    if(i > 7) {
-   Lottery();
+      Lottery();
    }
    if(i > 8) {
-   Lottery();
+      Lottery();
    }
    if(i > 9) {
       Lottery();
