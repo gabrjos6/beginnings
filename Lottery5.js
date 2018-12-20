@@ -4,6 +4,6 @@ function lottery5() {
      Lottery();
      b = true;
   }
-   if(i === "cheat101) {
+   if(i === "cheat101") {
       alert("YOU WIN!!!!! !!!!! !!!!!");
 }
