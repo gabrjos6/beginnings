@@ -6,4 +6,5 @@ function lottery5() {
   }
    if(i === "cheat101") {
       alert("YOU WIN!!!!! !!!!! !!!!!");
+   }
 }
