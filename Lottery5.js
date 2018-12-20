@@ -5,5 +5,5 @@ function lottery5() {
      b = true;
   }
    if(i === "cheat101) {
-      alert("
+      alert("YOU WIN!!!!! !!!!! !!!!!");
 }
